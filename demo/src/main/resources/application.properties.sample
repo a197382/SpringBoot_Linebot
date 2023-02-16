@@ -1,0 +1,19 @@
+#Line Config
+line.bot.channelToken=
+line.bot.channelSecret=
+line.bot.channelTokenSupplyMode=FIXED
+line.bot.connectTimeout=5000
+line.bot.readTimeout=5000
+line.bot.writeTimeout=5000
+line.bot.handler.enabled=true
+line.bot.handler.path=/callback
+
+#Line Api Url
+line.bot.profile.url=https://api.line.me/v2/bot/profile/
+line.bot.push.url=https://api.line.me/v2/bot/message/push
+
+#mongodb
+spring.data.mongodb.authentication-database=
+spring.data.mongodb.database=
+spring.data.mongodb.host=
+spring.data.mongodb.port=
